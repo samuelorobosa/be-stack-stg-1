@@ -15,7 +15,7 @@ class Person{
 }
 
 $tall_dev = new Person();
-$tall_dev->setAttributes("tall_dev", true, 22, "A frontend developer developing and maintaining applications on the web. I help companies translate their business ideas into technical specifications using modern web technologies." );
+$tall_dev->setAttributes("tall_dev", true, 22, "A web developer developing and maintaining applications on the web. I help companies translate their business ideas into technical specifications using modern web technologies." );
 
 ##Return JSON response
 $tall_dev_encoded = json_encode($tall_dev);
